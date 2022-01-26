@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food App</title>
+        
+        <script src="./js/fontawesome.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/custom.css">
+
+        <script src="./js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row" id="fda_app">
+                <section id="fda_side_bar">
+                    <div class="menu_icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+
+                    <div class="menu">
+                        <ul>
+                            <li>Americana</li>
+                            <li>Japonesa</li>
+                            <li class="active">Indiana</li>
+                        </ul>
+                    </div>
+                    <div class="menu_filter">
+                        <i class="fa fa-bar-chart"></i>
+                    </div>
+                </section>
+
+                <div class="fda_content">
+                    <section class="col-12" id="fda_header_bar">
+                        <div class="row">
+                            <div class="col-12">
+                                <span>Pedir</span>&nbsp;Comida Fresca
+                            </div>
+                        </div>
+    
+                        <div class="row fda_search_row">
+                            <div class="col-12">
+                                <i class="fa fa-search"></i>
+                                <input type="text" class="fda_ip_search" placeholder="Procurar por comida/restaurante">
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section class="col-12" id="fda_product_title">
+                        <div class="row fda_food_row">
+    
+                            <div class="col-9">
+                                <div class="food_title active">
+                                    <img src="./media/food1.jpg" class="fda_product_img" />
+                                    <span class="food_name">Comida 1</span>
+                                    <span class="food_detail">Uma deliciosa e refinada comida feita pelas mãos do chefe.</span>
+                                
+                                    <ul id="food_meta">
+                                        <li>
+                                            Calorias
+                                            <span>325 Calorias</span>
+                                        </li>
+                                        <li>
+                                            Preço
+                                            <span>R$ 50,00</i></span>
+                                        </li>
+                                    </ul>
+    
+                                    <button class="btn btn-sm btn-default" type="button"> 
+                                        Pedir agora
+                                    </button>
+                                </div>
+                            </div>
+    
+                            
+                            <div class="col-9">
+                                <div class="food_title">
+                                    <img src="./media/food2.jpg" class="fda_product_img" />
+                                    <span class="food_name">Comida 2</span>
+                                    <span class="food_detail">Super hard food.</span>
+                                
+                                    <ul id="food_meta">
+                                        <li>
+                                            Calorias
+                                            <span>125 Calorias</span>
+                                        </li>
+                                        <li>
+                                            Preço
+                                            <span>R$ 75,00</i></span>
+                                        </li>
+                                    </ul>
+    
+                                    <button class="btn btn-sm btn-default" type="button"> 
+                                        Pedir agora
+                                    </button>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </section>
+    
+    
+                    <section class="col-12 fda_section_product_tile">
+                        <div class="row fda_title_row">
+                            <div class="col-12">
+                                Popular essa semana
+                            </div>
+                        </div>
+                        <div class="row fda_section_row">
+                            <div class="row col-10 section_product_title">
+                                <div class="col-4 justify-content align-self-center">
+                                    <img src="media/food10.jpg" alt="" srcset="">
+                                </div>
+                                <div class="col-6 justify-content align-self-center section_meta">
+                                    <span class="product_title">
+                                        Channe Poda
+                                    </span>
+                                    <span class="product_rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                        <span class="rating_avg">(4.5)</span>
+                                    </span>
+                                    <span class="product_price">
+                                        R$ 75,00
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row col-10 section_product_title">
+                                <div class="col-4 justify-content align-self-center">
+                                    <img src="media/food11.jpg" alt="" srcset="">
+                                </div>
+                                <div class="col-6 justify-content align-self-center section_meta">
+                                    <span class="product_title">
+                                        Tomato Rico
+                                    </span>
+                                    <span class="product_rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <span class="rating_avg">(4)</span>
+                                    </span>
+                                    <span class="product_price">
+                                        R$ 700,00
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section class="col-12 fda_section_product_tile">
+                        <div class="row fda_title_row">
+                            <div class="col-12">
+                                Novos pratos
+                            </div>
+                        </div>
+                        <div class="row fda_section_row">
+                            <div class="row col-10 section_product_title">
+                                <div class="col-4 justify-content align-self-center">
+                                    <img src="media/food12.jpg" alt="" srcset="">
+                                </div>
+                                <div class="col-6 justify-content align-self-center section_meta">
+                                    <span class="product_title">
+                                        Super Riccota
+                                    </span>
+                                    <span class="product_rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <span class="rating_avg">(5)</span>
+                                    </span>
+                                    <span class="product_price">
+                                        R$ 90,00
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row col-10 section_product_title">
+                                <div class="col-4 justify-content align-self-center">
+                                    <img src="media/food8.jpg" alt="" srcset="">
+                                </div>
+                                <div class="col-6 justify-content align-self-center section_meta">
+                                    <span class="product_title">
+                                        Soda Italiana
+                                    </span>
+                                    <span class="product_rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-half"></i>
+                                        <span class="rating_avg">(3.5)</span>
+                                    </span>
+                                    <span class="product_price">
+                                        R$ 35,00
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                
+            </div>
+        </div>
+        
+    </body>
+</html>
